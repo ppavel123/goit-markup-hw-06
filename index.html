@@ -429,6 +429,24 @@
 						</li>
 					</ul>
 				</div>
+				<div class="footer-subscribe">
+					<p class="link">Subscribe</p>
+					<form class="footer-form">
+						<label>
+							<input
+								type="email"
+								name="email"
+								placeholder="E-mail"
+								class="footer-label"
+							/>
+						</label>
+						<button type="submit" class="footer-button">
+							Subscribe<svg class="subscribe-icon" width="24" height="24">
+								<use href="./images/symbol-defs-fix.svg#frame-3"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
 			</div>
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
@@ -438,6 +456,38 @@
 						<use href="./images/symbol-defs-fix.svg#close-black"></use>
 					</svg>
 				</button>
+
+				<form class="form">
+					<p class="form-title">
+						Leave your contacts and we will call you back
+					</p>
+					<div class="form-fild">
+						<label>Name<input type="text" name="username" /></label>
+					</div>
+					<div class="form-fild">
+						<label>Phone<input type="tel" name="phone_number" /></label>
+					</div>
+					<div class="form-fild">
+						<label>Email<input type="email" name="email" /></label>
+					</div>
+					<div class="form-fild">
+						<label
+							>Comment<textarea
+								name="comment"
+								cols="30"
+								rows="10"
+								placeholder="Text input"
+							></textarea>
+						</label>
+					</div>
+					<div>
+						<label
+							><input type="checkbox" name="policy" />I accept the terms and
+							conditions of the Privacy Policy</label
+						>
+					</div>
+					<div><button type="submit" class="hero-button">Send</button></div>
+				</form>
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
