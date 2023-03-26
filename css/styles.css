@@ -687,7 +687,7 @@ h3 {
 }
 
 .footer-subscribe {
-	margin-left: 80px;
+	margin-left: auto;
 }
 
 .footer-form {
@@ -741,7 +741,6 @@ h3 {
 }
 
 .subscribe-icon {
-	/* display: flex; */
 	margin-left: 16px;
 }
 
@@ -775,7 +774,7 @@ h3 {
 	left: 50%;
 	padding: 72px 24px 24px;
 	width: 408px;
-	min-height: 584px;
+
 	background-color: var(--background-modal-color);
 	color: var(--primary-text-color);
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -927,8 +926,6 @@ h3 {
 }
 
 .policy-link {
-	margin-top: 0;
-	margin-bottom: 0;
 	color: var(--button-text-color);
 }
 
